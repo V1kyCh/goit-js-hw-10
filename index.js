@@ -1,12 +1,12 @@
 // 1
-// let time1 = 0
-// const interval1 = setInterval(()=> {
-//     alert('вивела повідомлення через 1 секунду')
-//     time1++
-//     if (time1 === 5) {
-//         clearInterval(interval1)
-//     }
-// },1000)
+let time1 = 0
+const interval1 = setInterval(()=> {
+    alert('вивела повідомлення кожну секунду')
+    time1++
+    if (time1 === 5) {
+        clearInterval(interval1)
+    }
+},1000)
 
 // 2
 
